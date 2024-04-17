@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main() {
-  char *filename = "../input.txt";
+  char *filename = "../input_part1.txt";
   FILE *fp = fopen(filename, "r");
 
   if (fp == NULL) {
